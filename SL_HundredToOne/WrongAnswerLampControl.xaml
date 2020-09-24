@@ -1,0 +1,23 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	mc:Ignorable="d"
+	x:Class="SL_HundredToOne.WrongAnswerLampControl"
+	d:DesignWidth="115" d:DesignHeight="75">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid>
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<ei:PlaySoundAction Source="/100 к 1 - Wrong Answer.mp3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+			<Rectangle Width="115" Height="75" x:Name="LampRectangle" VerticalAlignment="Top" Fill="#FFDEB406" RadiusY="40" RadiusX="15" StrokeThickness="4" d:LayoutOverrides="HorizontalMargin"/>
+			<Path Data="M74.666664,309.33334 L105.333,324.00034 L75.333008,342.66699 L79.333054,350.66656 L85.333115,356.66611 L127.33358,334.66635 L168.0013,355.33249 L175.33475,350.66592 L178.66849,340.6662 L148.00095,323.33331 L176.66812,305.33377 L174.66809,297.33435 L168.66798,291.3349 L126.66724,314.00095 L83.999832,293.33514 L77.999725,299.3349 z" 
+				Fill="#FFE02F2C" Height="75" Margin="4.199,0,3.8,0" Stretch="Fill" UseLayoutRounding="False" Width="107" VerticalAlignment="Top"/>
+		</Grid>
+	</Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="SL_HundredToOne.BlackboardAnswer"
+	d:DesignWidth="488" d:DesignHeight="50
+    ">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid d:LayoutOverrides="Height" Margin="0,0">
+			<TextBlock x:Name="Text" Text="ПРИМЕР ОТВЕТА" Foreground="White" FontSize="32"  FontFamily="Arial Narrow" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Score" Text="10" Foreground="White" FontSize="32" FontFamily="Arial Narrow" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Center" />
+		</Grid>
+	</Grid>
+</UserControl>

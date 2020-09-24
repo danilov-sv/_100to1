@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7BCB6884-54CE-47C1-B65A-929F37C29C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerApp", "ControllerApp\ControllerApp.csproj", "{ABA152CF-E4B4-462F-97A3-76A756ABD0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySocketServices", "PolicySocketServices\PolicySocketServices.csproj", "{3F866552-657A-4C74-B6B7-56D495B2A0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL_HundredToOne", "SL_HundredToOne\SL_HundredToOne.csproj", "{A2848087-6C80-46FE-83A3-DC55D3933108}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SL_HundredToOneSite", "SL_HundredToOneSite", "{45B154F1-5B65-4AB4-AF87-8C80C5FDF6EE}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64163"
+		Debug.AspNetCompiler.PhysicalPath = "SL_HundredToOneSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64163\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64163"
+		Release.AspNetCompiler.PhysicalPath = "SL_HundredToOneSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64163\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64163"
+		SlnRelativePath = "SL_HundredToOneSite\"
+		ProjOutputReferences = "{a2848087-6c80-46fe-83a3-dc55d3933108}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorePortable", "CorePortable\CorePortable.csproj", "{9E727177-4200-47F7-B335-2F5D12FDA969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCB6884-54CE-47C1-B65A-929F37C29C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCB6884-54CE-47C1-B65A-929F37C29C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCB6884-54CE-47C1-B65A-929F37C29C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCB6884-54CE-47C1-B65A-929F37C29C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA152CF-E4B4-462F-97A3-76A756ABD0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA152CF-E4B4-462F-97A3-76A756ABD0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA152CF-E4B4-462F-97A3-76A756ABD0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA152CF-E4B4-462F-97A3-76A756ABD0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F866552-657A-4C74-B6B7-56D495B2A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F866552-657A-4C74-B6B7-56D495B2A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F866552-657A-4C74-B6B7-56D495B2A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F866552-657A-4C74-B6B7-56D495B2A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2848087-6C80-46FE-83A3-DC55D3933108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2848087-6C80-46FE-83A3-DC55D3933108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2848087-6C80-46FE-83A3-DC55D3933108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2848087-6C80-46FE-83A3-DC55D3933108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B154F1-5B65-4AB4-AF87-8C80C5FDF6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B154F1-5B65-4AB4-AF87-8C80C5FDF6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B154F1-5B65-4AB4-AF87-8C80C5FDF6EE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B154F1-5B65-4AB4-AF87-8C80C5FDF6EE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9E727177-4200-47F7-B335-2F5D12FDA969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E727177-4200-47F7-B335-2F5D12FDA969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E727177-4200-47F7-B335-2F5D12FDA969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E727177-4200-47F7-B335-2F5D12FDA969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
